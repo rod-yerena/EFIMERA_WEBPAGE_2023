@@ -17,3 +17,57 @@
     transform: translate(-50%, -50%);
     width: 500px;
 }
+
+.div_about_us_text_left{
+    background-color: #EBE6E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-block: 20px;
+
+    position: relative; /* Añade esta línea para establecer un contexto de posición para los elementos hijos */
+}
+
+.div_about_us_text_right{
+    background-color: #EBE6E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-block: 20px;
+
+    position: relative; /* Añade esta línea para establecer un contexto de posición para los elementos hijos */
+}
+
+.div_about_us_text_left p{
+    background-color: #dcd2c5;
+    font-family: "Cormorant_Garamond_Regular";
+    font-size: 13px;
+    text-align: justify;
+    color: black;
+    letter-spacing: 5px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    width: 30%;
+    padding: 40px;
+
+    position: absolute; /* Establece la posición absoluta para el elemento <p> */
+    left: 100px; /* Ajusta este valor según tu preferencia para controlar la superposición */
+}
+
+.div_about_us_text_right p{
+    background-color: #dcd2c5;
+    font-family: "Cormorant_Garamond_Regular";
+    font-size: 13px;
+    text-align: justify;
+    color: black;
+    letter-spacing: 5px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    width: 30%;
+    padding: 40px;
+
+    position: absolute; /* Establece la posición absoluta para el elemento <p> */
+    left: 1000px; /* Ajusta este valor según tu preferencia para controlar la superposición */
+}
