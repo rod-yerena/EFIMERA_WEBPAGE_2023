@@ -46,3 +46,74 @@ body{
     padding-block: 20px;
     text-transform: uppercase;
 }
+
+.services_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-block: 20px;
+}
+
+.service_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.service_box h2{
+    font-family: "Cormorant_Garamond_Regular";
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    letter-spacing: 5px;
+    line-height: 1.5;
+    width: 60%;
+    padding-block: 20px;
+    text-transform: uppercase;
+}
+
+.service_box img{
+    width: 100px;
+    padding-inline: 150px;
+}
+
+.offers_container{
+    background-color: #EBE6E0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-block: 50px;
+}
+
+.offers_container img{
+    width: 40%;
+}
+
+.div_offers_text{
+    padding-left: 20px;
+}
+
+.div_offers_text h2{
+    font-family: "Cormorant_Garamond_Regular";
+    font-size: 30px;
+    color: black;
+    letter-spacing: 5px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.list_offers{
+    width: 90%;
+}
+
+.list_offers li{
+    font-family: "Cormorant_Garamond_Regular";
+    font-size: 13px;
+    color: black;
+    letter-spacing: 5px;
+    line-height: 1.5;
+    padding-block: 30px;
+    text-transform: uppercase;
+}

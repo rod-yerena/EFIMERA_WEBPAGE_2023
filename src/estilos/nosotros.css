@@ -4,18 +4,27 @@
     src: url(../tipografias/CormorantGaramond-Regular.ttf) format("truetype");
 }
 
+.div_main_container_nosotros{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .title_nosotros{
     font-family: "Cormorant_Garamond_Regular";
-    font-size: 100px;
+    font-size: 90px;
     text-align: center;
     color: white;
+    text-shadow: 2px 2px 4px #504a4a;
     letter-spacing: 5px;
     text-transform: uppercase;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 500px;
+    width: 100%;
 }
 
 .div_about_us_text_left{
@@ -24,7 +33,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    padding-block: 20px;
+    padding-block: 40px;
 
     position: relative; /* Añade esta línea para establecer un contexto de posición para los elementos hijos */
 }
@@ -35,7 +44,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
-    padding-block: 20px;
+    padding-block: 40px;
 
     position: relative; /* Añade esta línea para establecer un contexto de posición para los elementos hijos */
 }

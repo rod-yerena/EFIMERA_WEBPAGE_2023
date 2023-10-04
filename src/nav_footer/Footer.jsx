@@ -9,9 +9,19 @@ const Footer = () => {
         <a href="/">
             <img src={logo_efimera} alt="EFIMERA" />
         </a>
-        <p>Av García Lavín Calle 27 No. 318 Local 15 97113 Mérida, México</p>
-        <p>efimerastudiointeriorismo@gmail.com</p>
-        <p>EFÍMERA Studio Interiorismo &copy;2023. Todos los derechos reservados.</p>
+        <div className='footer_info_container'>
+          <div className='footer_info_texts'>
+            <p>Av García Lavín Calle 27 No. 318 Local 15 97113 Mérida, México</p>
+            <p>efimerastudiointeriorismo@gmail.com</p>
+            <p>EFÍMERA Studio Interiorismo &copy;2023. Todos los derechos reservados.</p>
+          </div>
+          <div className='footer_social_medias'>
+            <a href="/">Facebook</a>
+            <a href="/">Instagram</a>
+            <a href="/">Pinterest</a>
+            <a href="/">Tiktok</a>
+          </div>
+        </div>
     </div>
   )
 }
