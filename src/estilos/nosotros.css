@@ -1,0 +1,19 @@
+
+@font-face {
+    font-family: "Cormorant_Garamond_Regular";
+    src: url(../tipografias/CormorantGaramond-Regular.ttf) format("truetype");
+}
+
+.title_nosotros{
+    font-family: "Cormorant_Garamond_Regular";
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+}
