@@ -37,7 +37,7 @@ body{
 
 .descript_efimera p{
     font-family: "Cormorant_Garamond_Regular";
-    font-size: 13px;
+    font-size: 15px;
     text-align: center;
     color: black;
     letter-spacing: 5px;
@@ -117,3 +117,101 @@ body{
     padding-block: 30px;
     text-transform: uppercase;
 }
+
+.proyectos_de_vista_previa{
+    background-color: #EBE6E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.projects_preview_home{
+    background-color: #EBE6E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects_preview_home h1{
+    font-family: "Cormorant_Garamond_Regular";
+    font-size: 30px;
+    color: black;
+    letter-spacing: 5px;
+    line-height: 1.5;
+    padding-block: 30px;
+    text-transform: uppercase;
+}
+
+.projects_div_home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 30%;
+    padding-inline: 20px;
+}
+
+.project_container {
+    position: relative;
+    text-align: center;
+}
+
+.projects_container_link{
+    text-decoration: none;
+}
+  
+.project_container img {
+    width: 100%; /* Asegúrate de que la imagen ocupe todo el espacio del contenedor */
+    text-decoration: none;
+}
+  
+.project_container h2 {
+    font-family: "Cormorant_Garamond_Regular";
+    font-size: 25px;
+    color: black;
+    letter-spacing: 5px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 50%; /* Coloca el h2 en el centro vertical del contenedor padre */
+    left: 50%; /* Coloca el h2 en el centro horizontal del contenedor padre */
+    transform: translate(-50%, -50%); /* Centra el h2 exactamente en el centro del contenedor */
+    margin: 0; /* Elimina el margen para asegurar que esté completamente centrado */
+    padding-block: 20px;
+    z-index: 1; /* Asegura que el h2 esté sobre la imagen */
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco con 80% de opacidad */
+}
+
+.see_more_projects{
+    padding-block: 30px;
+}
+
+.link_ver_mas_proyectos{
+    text-decoration: none;
+}
+
+.link_ver_mas_proyectos button{
+    background-color: transparent;
+    font-family: "Cormorant_Garamond_Regular";
+    font-size: 13px;
+    text-align: center;
+    color: black;
+    letter-spacing: 5px;
+    width: 300px;
+    border-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.link_ver_mas_proyectos button:hover{
+    background-color: #dcd7d1;
+}
+
+.link_ver_mas_proyectos button:active{
+    background-color: white;
+}
+  
+  

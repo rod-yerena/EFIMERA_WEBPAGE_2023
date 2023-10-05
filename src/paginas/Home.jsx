@@ -11,6 +11,10 @@ import interiorismo from "../imagenes/casa_moderna.png"
 import arquitectura from "../imagenes/arquitectura.png"
 import mesa from "../imagenes/img_mesa.jpeg"
 
+//PARA VISUALIZACION DE PROYECTOS:
+import project_1 from "../proyectos/C50/c50_1.jpg"
+import project_2 from "../proyectos/ENSO_A54/enzo_1.jpg"
+
 const Home = () => {
   return (
     <div>
@@ -51,6 +55,43 @@ const Home = () => {
             <li>Cotización de la obra</li>
             <li>Ejecución y supervisión de la obra</li>
           </ul>
+        </div>
+      </div>
+
+      <div className='projects_preview_home'>
+        <h1>Nuestros proyectos:</h1>
+
+        <div className='proyectos_de_vista_previa'>
+          <div className='projects_div_home'>
+            <div className='project_container'>
+              <a href="/" className='projects_container_link'>
+                <img src={project_1} alt="EFIMERA" />
+                <h2>Cantina 50</h2>
+              </a>
+            </div>
+          </div>
+          <div className='projects_div_home'>
+            <div className='project_container'>
+              <a href="/" className='projects_container_link'>
+                <img src={project_2} alt="EFIMERA" />
+                <h2>Enzo A54</h2>
+              </a>
+            </div>
+          </div>
+          <div className='projects_div_home'>
+            <div className='project_container'>
+              <a href="/" className='projects_container_link'>
+                <img src={project_1} alt="EFIMERA" />
+                <h2>Meriden</h2>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className='see_more_projects'>
+          <a href="/" className='link_ver_mas_proyectos' >
+            <button>Ver más proyectos</button>
+          </a>
         </div>
       </div>
 

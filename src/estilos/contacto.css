@@ -1,0 +1,84 @@
+
+@font-face {
+    font-family: "Cormorant_Garamond_Regular";
+    src: url(../tipografias/CormorantGaramond-Regular.ttf) format("truetype");
+}
+
+.div_portada_contacto{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title_contacto{
+    font-family: "Cormorant_Garamond_Regular";
+    font-size: 90px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #504a4a;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.contact_main_div_info{
+    background-color: #EBE6E0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_main_div_info h2{
+    font-family: "Cormorant_Garamond_Regular";
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-block: 50px;
+}
+
+.contact_map_div{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact_map_div a{
+    width: 70%;
+}
+
+.img_mapa_efimera{
+    width: 100%;
+}
+
+.contact_text_and_adress_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.svg_div_text{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-block: 30px;
+    padding-left: 30px;
+}
+
+.pin_adress{
+    width: 5%;
+}
+
+.svg_div_text p{
+    font-family: "Cormorant_Garamond_Regular";
+    font-size: 13px;
+    color: black;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-inline: 20px;
+    width: 80%;
+}
