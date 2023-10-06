@@ -18,25 +18,24 @@ const Contacto = () => {
             <img src={portada} className='imagen_portada' alt="EFIMERA" />
             <h1 className='title_contacto'>Contacto</h1>
         </div>
-
-        <div className='contact_main_div_info'>
-            <h2>Estás a un paso de conocer nuestro mundo sensorial:</h2>
-            <div className='contact_map_div'>
-                <a href="https://maps.app.goo.gl/CEVzV1CPUaCpCdxAA">
-                    <img src={mapa} className='img_mapa_efimera' alt="EFIMERA MAPA" />
+        <div className='div_map_and_info_main_container'>
+            <h1>A un paso de descubrir nuestro mundo sensorial:</h1>
+            <div className='div_contact_second_container'>
+                <a href="https://maps.app.goo.gl/e6KyWYmnX4EfQUZA7" className='link_mapa'>
+                    <img src={mapa} alt="MAPA GOOGLE MAPS EFIMERA" />
                 </a>
-                <div className='contact_text_and_adress_info'>
-                    <div className='svg_div_text'>
-                        <img src={telefono} className="pin_adress" alt="EFIMERA" />
+                <div className='div_adress_email_phone'>
+                    <div className='div_info_contact'>
+                        <img src={telefono} alt="EFIMERA" />
                         <p>+52 999 122 8679</p>
                     </div>
-                    <div className='svg_div_text'>
-                        <img src={email} className="pin_adress" alt="EFIMERA" />
+                    <div className='div_info_contact'>
+                        <img src={email} alt="EFIMERA" />
                         <p>efimerastudiointeriorismo@gmail.com</p>
                     </div>
-                    <div className='svg_div_text'>
-                        <img src={pin} className="pin_adress" alt="EFIMERA" />
-                        <p>Av García Lavín Calle 27 No. 318 Local 15, Mérida, Mexico, 97113</p>
+                    <div className='div_info_contact'>
+                        <img src={pin} alt="EFIMERA" />
+                        <p>Av García Lavín Calle 27 No. 318 Local 15 97113 Mérida, México</p>
                     </div>
                 </div>
             </div>

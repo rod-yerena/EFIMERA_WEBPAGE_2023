@@ -14,6 +14,7 @@ import mesa from "../imagenes/img_mesa.jpeg"
 //PARA VISUALIZACION DE PROYECTOS:
 import project_1 from "../proyectos/C50/c50_1.jpg"
 import project_2 from "../proyectos/ENSO_A54/enzo_1.jpg"
+import project_3 from "../proyectos/CASA_RLP/rlp_1.jpg"
 
 const Home = () => {
   return (
@@ -81,15 +82,15 @@ const Home = () => {
           <div className='projects_div_home'>
             <div className='project_container'>
               <a href="/" className='projects_container_link'>
-                <img src={project_1} alt="EFIMERA" />
-                <h2>Meriden</h2>
+                <img src={project_3} alt="EFIMERA" />
+                <h2>Casa RLP</h2>
               </a>
             </div>
           </div>
         </div>
 
         <div className='see_more_projects'>
-          <a href="/" className='link_ver_mas_proyectos' >
+          <a href="/projects" className='link_ver_mas_proyectos' >
             <button>Ver más proyectos</button>
           </a>
         </div>
