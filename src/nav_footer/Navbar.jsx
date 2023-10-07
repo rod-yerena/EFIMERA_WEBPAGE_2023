@@ -15,8 +15,8 @@ const Navbar = () => {
        </a>
         <div className='div_nav_links'>
             <a href="/about">Nosotros</a>
-            <a href="/">Espacios</a>
-            <a href="/projects">Creaciones</a>
+            <a href="/projects">Espacios y Creaciones</a>
+            <a href="/">Blog</a>
             <a href="/contact">Contacto</a>
             <div className='div_social_medias'>
               <a href="https://www.facebook.com/profile.php?id=100089363600823" className='link_icon'>
