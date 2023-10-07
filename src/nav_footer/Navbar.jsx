@@ -1,10 +1,10 @@
 import React from 'react'
 
 import logo from "../imagenes/logo_white.png"
-import facebook_icon from "../iconos/facebook.svg"
-import instagram_icon from "../iconos/instagram.svg"
-import pinterest_icon from "../iconos/pinterest.svg"
-import tiktok_icon from "../iconos/tiktok.svg"
+import facebook_icon from "../iconos/facebook.png"
+import instagram_icon from "../iconos/instagram.png"
+import pinterest_icon from "../iconos/pinterest.png"
+import tiktok_icon from "../iconos/tiktok.png"
 import "../estilos/navbar.css"
 
 const Navbar = () => {

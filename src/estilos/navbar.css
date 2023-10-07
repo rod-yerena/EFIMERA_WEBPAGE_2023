@@ -18,7 +18,7 @@
 }
 
 .efimera_navbar img{
-    width: 45px;
+    width: 40px;
     padding: 15px;
 }
 
@@ -42,13 +42,15 @@
     display: flex;
     align-items: center;
     flex-direction: row;
+    padding-right: 20px;
 }
 
 .div_social_medias a{
-    padding-inline: 20px;
+    padding-inline: 15px;
 }
+
 
 .link_icon img{
     filter: brightness(0) invert(0.8);
-    width: 15px;
+    width: 17px;
 }
