@@ -1,0 +1,81 @@
+
+@font-face {
+    font-family: "Cormorant_Garamond_Regular";
+    src: url(../tipografias/CormorantGaramond-Regular.ttf) format("truetype");
+}
+
+.div_portada_proyectos{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title_proyectos{
+    font-family: "Cormorant_Garamond_Regular";
+    font-size: 90px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #504a4a;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.proyectos_list_main_container{
+    background-color: #EBE6E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 30px;
+}
+
+.proyectos_list_main_container h1{
+    font-family: "Cormorant_Garamond_Regular";
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.proyecto_list_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.link_to_carousel_project{
+    text-decoration: none;
+    position: relative;
+    width: 35%;
+}
+
+.link_to_carousel_project img{
+    width: 100%;
+}
+
+.link_to_carousel_project h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-family: "Cormorant_Garamond_Regular";
+    font-size: 17px;
+    text-align: center;
+    color: black;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco con 80% de opacidad */
+    width: 100%;
+    padding-block: 20px;
+}
+
