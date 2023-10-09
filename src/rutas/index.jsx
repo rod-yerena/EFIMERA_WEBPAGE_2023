@@ -5,6 +5,7 @@ import Nosotros from "../paginas/Nosotros";
 import NotFound from "../paginas/NotFound";
 import Contacto from "../paginas/Contacto";
 import Proyectos from "../paginas/Proyectos";
+import Blog from "../paginas/Blog";
 
 export const router = createBrowserRouter([
     {
@@ -25,6 +26,11 @@ export const router = createBrowserRouter([
     {
         path: "/projects",
         element: <Proyectos/>,
+        errorElement: <NotFound/>
+    },
+    {
+        path: "/blog",
+        element: <Blog/>,
         errorElement: <NotFound/>
     }
 ]);

@@ -109,7 +109,7 @@ const Proyectos = () => {
             <Navbar/>
             <div className='div_portada_proyectos'>
                 <img src={portada} className="imagen_portada" alt="EFIMERA" />
-                <h1 className='title_proyectos'>Creaciones</h1>
+                <h1 className='title_proyectos'>Espacios y Creaciones</h1>
             </div>
             <div className='proyectos_list_main_container'>
                 <h1>Descubre nuestros espacios y creaciones sensoriales:</h1>
