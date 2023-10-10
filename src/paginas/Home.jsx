@@ -27,19 +27,22 @@ const Home = () => {
       </div>
 
       <div className='descript_efimera'>
+        <p>Somos una firma especializada en crear experiencias sensoriales y captar 
+            la belleza de aquello que no dura para siempre pero que deja una huella 
+            constante en nuestras vidas.</p>
         <p>Nuestra firma se define con elementos como:</p>
         <div className='services_container'>
           <div className='service_box'>
             <img src={vela} alt="EFIMERA" />
-            <h2>Elementos sensoriales</h2>
+            <p>Elementos sensoriales</p>
           </div>
           <div className='service_box'>
             <img src={interiorismo} alt="EFIMERA" />
-            <h2>Interiorismo exquisito</h2>
+            <p>Interiorismo exquisito</p>
           </div>
           <div className='service_box'>
             <img src={arquitectura} alt="EFIMERA" />
-            <h2>Arquitectura vanguardista</h2>
+            <p>Arquitectura vanguardista</p>
           </div>
         </div>
       </div>
@@ -62,31 +65,27 @@ const Home = () => {
       <div className='projects_preview_home'>
         <h1>Nuestros proyectos:</h1>
 
-        <div className='proyectos_de_vista_previa'>
-          <div className='projects_div_home'>
-            <div className='project_container'>
-              <a href="/" className='projects_container_link'>
-                <img src={project_1} alt="EFIMERA" />
-                <h2>Cantina 50</h2>
-              </a>
-            </div>
+        <div className='project_home_main_container'>
+          
+          <div className='project_block_home'>
+            <img src={project_1} alt="EFIMERA" />
+            <a href="/" className='link_to_project_home'>
+              <button>Cantina 50</button>
+            </a>
           </div>
-          <div className='projects_div_home'>
-            <div className='project_container'>
-              <a href="/" className='projects_container_link'>
-                <img src={project_2} alt="EFIMERA" />
-                <h2>Enzo A54</h2>
-              </a>
-            </div>
+          <div className='project_block_home'>
+            <img src={project_2} alt="EFIMERA" />
+            <a href="/" className='link_to_project_home'>
+              <button>Enso A54</button>
+            </a>
           </div>
-          <div className='projects_div_home'>
-            <div className='project_container'>
-              <a href="/" className='projects_container_link'>
-                <img src={project_3} alt="EFIMERA" />
-                <h2>Casa RLP</h2>
-              </a>
-            </div>
+          <div className='project_block_home'>
+            <img src={project_3} alt="EFIMERA" />
+            <a href="/" className='link_to_project_home'>
+              <button>Casa RLP</button>
+            </a>
           </div>
+
         </div>
 
         <div className='see_more_projects'>

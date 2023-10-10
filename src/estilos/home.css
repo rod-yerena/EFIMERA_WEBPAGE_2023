@@ -37,7 +37,7 @@ body{
 
 .descript_efimera p{
     font-family: "Cormorant_Garamond_Regular";
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
     color: black;
     letter-spacing: 5px;
@@ -62,9 +62,9 @@ body{
     flex-direction: column;
 }
 
-.service_box h2{
+.service_box p{
     font-family: "Cormorant_Garamond_Regular";
-    font-size: 20px;
+    font-size: 13px;
     text-align: center;
     color: black;
     letter-spacing: 5px;
@@ -75,8 +75,8 @@ body{
 }
 
 .service_box img{
-    width: 100px;
-    padding-inline: 150px;
+    width: 50px;
+    padding-inline: 190px;
 }
 
 .offers_container{
@@ -118,14 +118,7 @@ body{
     text-transform: uppercase;
 }
 
-.proyectos_de_vista_previa{
-    background-color: #EBE6E0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-}
-
+/* NUESTROS PROYECTOS: */
 .projects_preview_home{
     background-color: #EBE6E0;
     display: flex;
@@ -137,51 +130,59 @@ body{
 .projects_preview_home h1{
     font-family: "Cormorant_Garamond_Regular";
     font-size: 30px;
+    text-align: center;
     color: black;
     letter-spacing: 5px;
-    line-height: 1.5;
-    padding-block: 30px;
     text-transform: uppercase;
 }
 
-.projects_div_home{
+.project_home_main_container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    width: 30%;
-    padding-inline: 20px;
 }
 
-.project_container {
+.project_block_home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     position: relative;
-    text-align: center;
+    padding-inline: 15px;
 }
 
-.projects_container_link{
+.project_block_home img{
+    width: 500px;
+}
+
+.link_to_project_home{
+    position: absolute;
+    bottom: 0;
     text-decoration: none;
 }
-  
-.project_container img {
-    width: 100%; /* Asegúrate de que la imagen ocupe todo el espacio del contenedor */
-    text-decoration: none;
-}
-  
-.project_container h2 {
+
+.link_to_project_home button{
+    background-color: rgba(235, 230, 224, 0.8);
+    border-color: black;
+    border-radius: 20px;
     font-family: "Cormorant_Garamond_Regular";
-    font-size: 25px;
+    font-size: 15px;
+    text-align: center;
     color: black;
     letter-spacing: 5px;
-    position: absolute;
     text-transform: uppercase;
-    top: 50%; /* Coloca el h2 en el centro vertical del contenedor padre */
-    left: 50%; /* Coloca el h2 en el centro horizontal del contenedor padre */
-    transform: translate(-50%, -50%); /* Centra el h2 exactamente en el centro del contenedor */
-    margin: 0; /* Elimina el margen para asegurar que esté completamente centrado */
-    padding-block: 20px;
-    z-index: 1; /* Asegura que el h2 esté sobre la imagen */
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco con 80% de opacidad */
+    padding-block: 10px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.link_to_project_home button:hover{
+    background-color: rgba(220, 215, 209, 0.8);
+}
+
+.link_to_project_home button:active{
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .see_more_projects{
@@ -192,6 +193,10 @@ body{
     text-decoration: none;
 }
 
+.see_more_projects{
+    padding-block: 50px;
+}
+
 .link_ver_mas_proyectos button{
     background-color: transparent;
     font-family: "Cormorant_Garamond_Regular";
@@ -199,10 +204,11 @@ body{
     text-align: center;
     color: black;
     letter-spacing: 5px;
+    text-transform: uppercase;
     width: 300px;
     border-color: black;
     border-radius: 20px;
-    padding: 10px;
+    padding-block: 10px;
     cursor: pointer;
 }
 

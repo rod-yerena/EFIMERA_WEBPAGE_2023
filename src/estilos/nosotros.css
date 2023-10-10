@@ -14,11 +14,11 @@
 
 .title_nosotros{
     font-family: "Cormorant_Garamond_Regular";
-    font-size: 90px;
+    font-size: 50px;
     text-align: center;
     color: white;
     text-shadow: 2px 2px 4px #504a4a;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
     text-transform: uppercase;
     position: absolute;
     top: 50%;
