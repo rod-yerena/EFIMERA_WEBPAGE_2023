@@ -6,7 +6,7 @@ import "../estilos/footer.css"
 const Footer = () => {
   return (
     <div className='footer_div'>
-        <a href="/">
+        <a href="/" className='link_to_home_footer'>
             <img src={logo_efimera} alt="EFIMERA" />
         </a>
         <div className='footer_info_container'>

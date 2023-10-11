@@ -134,6 +134,7 @@ body{
     color: black;
     letter-spacing: 5px;
     text-transform: uppercase;
+    padding-block: 30px;
 }
 
 .project_home_main_container{

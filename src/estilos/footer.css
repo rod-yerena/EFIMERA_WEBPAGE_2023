@@ -12,8 +12,9 @@
     padding-block: 20px;
 }
 
-.footer_div img{
+.link_to_home_footer img{
     width: 70px;
+    padding-block: 20px;
 }
 
 .footer_info_container{
@@ -26,12 +27,12 @@
 .footer_info_texts{
     display: flex;
     flex-direction: column;
-    padding-right: 50px;
+    padding-right: 200px;
 }
 
 .footer_info_texts p{
     font-family: "Cormorant_Garamond_Regular";
-    font-size: 13px;
+    font-size: 12px;
     color: black;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -40,12 +41,12 @@
 .footer_social_medias{
     display: flex;
     flex-direction: column;
-    padding-left: 50px;
+    padding-left: 200px;
 }
 
 .footer_social_medias a{
     font-family: "Cormorant_Garamond_Regular";
-    font-size: 13px;
+    font-size: 12px;
     color: black;
     letter-spacing: 5px;
     text-transform: uppercase;

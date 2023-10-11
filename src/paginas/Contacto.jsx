@@ -8,6 +8,7 @@ import mapa from "../imagenes/mapa_efimera.png"
 import telefono from "../imagenes/telefono.png"
 import email from "../imagenes/email.png"
 import pin from "../imagenes/pin.png"
+import reloj from "../imagenes/reloj.png"
 
 const Contacto = () => {
   return (
@@ -36,6 +37,18 @@ const Contacto = () => {
                     <div className='div_info_contact'>
                         <img src={pin} alt="EFIMERA" />
                         <p>Av García Lavín Calle 27 No. 318 Local 15 97113 Mérida, México</p>
+                    </div>
+                    <div className='div_info_contact'>
+                        <img src={reloj} alt="EFÍMERA" />
+                        <ul className='schedule_list'>
+                            <li>Lunes: 9:00 - 14:00 / 15:00 - 18:00</li>
+                            <li>Martes: 9:00 - 14:00 / 15:00 - 18:00</li>
+                            <li>Miércoles: 9:00 - 14:00 / 15:00 - 18:00</li>
+                            <li>Jueves: 9:00 - 14:00 / 15:00 - 18:00</li>
+                            <li>Viernes: 9:00 - 14:00 / 15:00 - 18:00</li>
+                            <li>Sábado: 9:00 - 14:00</li>
+                            <li>Domingo: Cerrado</li>
+                        </ul>
                     </div>
                 </div>
             </div>
