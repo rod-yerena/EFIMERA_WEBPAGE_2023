@@ -6,7 +6,7 @@ const Wrapper = styled.div`
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 80%; /* Ancho de la imagen */
+    width: 600px; /* Ancho de la imagen */
     overflow: hidden; /* Oculta las partes de los botones de flecha que se salen del contenedor */
     margin: 0 auto; /* Centra el carrusel horizontalmente */
 `;

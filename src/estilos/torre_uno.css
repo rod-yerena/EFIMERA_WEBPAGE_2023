@@ -1,0 +1,80 @@
+
+@font-face {
+    font-family: "Cormorant_Garamond_Regular";
+    src: url(../tipografias/CormorantGaramond-Regular.ttf) format("truetype");
+}
+
+.div_portada_torre_uno{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subdiv_portada_torre_uno_titles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.subdiv_portada_torre_uno_titles h1{
+    font-family: "Cormorant_Garamond_Regular";
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #504a4a;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.subdiv_portada_torre_uno_titles p{
+    font-family: "Cormorant_Garamond_Regular";
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #504a4a;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.div_info_torre_uno{
+    background-color: #EBE6E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div_section_torre_uno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-block: 20px;
+}
+
+.div_section_torre_uno p{
+    background-color: #dcd2c5;
+    font-family: "Cormorant_Garamond_Regular";
+    font-size: 13px;
+    text-align: justify;
+    color: black;
+    letter-spacing: 5px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    width: 50%;
+    padding: 30px;
+}
+
+.div_section_torre_uno img{
+    width: 500px;
+}
+
+

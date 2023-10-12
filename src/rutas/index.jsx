@@ -7,6 +7,9 @@ import Contacto from "../paginas/Contacto";
 import Proyectos from "../paginas/Proyectos";
 import Blog from "../paginas/Blog";
 
+//PROYECTOS:
+import Torre_Uno from "../paginas/Torre_Uno";
+
 export const router = createBrowserRouter([
     {
         path: '/',
@@ -31,6 +34,11 @@ export const router = createBrowserRouter([
     {
         path: "/blog",
         element: <Blog/>,
+        errorElement: <NotFound/>
+    },
+    {
+        path: "/torre_uno",
+        element: <Torre_Uno/>,
         errorElement: <NotFound/>
     }
 ]);
