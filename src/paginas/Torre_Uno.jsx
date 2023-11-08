@@ -38,13 +38,33 @@ const Torre_Uno = () => {
             <img src={torre_uno_2} alt="EFIMERA" />
             <p>Durante varios meses de arduo trabajo y dedicación, nuestro equipo se entregó por completo para hacer 
               realidad la visión de los clientes. Cada elección de diseño, cada elemento decorativo, fue meticulosamente 
-              seleccionado para crear una atmósfera lujosa y sofisticada..</p>
+              seleccionado para crear una atmósfera lujosa y sofisticada.</p>
           </div>
           <div className='div_section_torre_uno'>
             <p>Trabajamos de cerca con los clientes para entender sus necesidades y gustos únicos. Con esto en mente, 
               creamos un diseño que fusionara elementos modernos. Utilizamos materiales de alta calidad, como mármol, 
               vidrio, madera y metales preciosos, para realzar la elegancia del espacio.</p>
             <img src={torre_uno_3} alt="EFIMERA" />
+          </div>
+          <div className='div_section_torre_uno'>
+            <img src={torre_uno_4} alt="EFIMERA" />
+            <p>La iluminación desempeñó un papel crucial en la creación de una sensación única en Torre Uno. Cada rincón 
+              fue cuidadosamente iluminado, con luces direccionales resaltando características arquitectónicas y creando 
+              atmósferas cálidas y acogedoras. El juego de luces y sombras añadió profundidad y dimensión al diseño, 
+              creando una experiencia visualmente impactante.</p>
+          </div>
+          <div className='div_section_torre_uno'>
+            <p>El resultado final del proyecto Torre Uno en Mérida es un espacio que transmite una elegancia sofisticada 
+              y única. Cada detalle ha sido cuidadosamente pensado y ejecutado, reflejando la calidad y dedicación que nos 
+              caracteriza en Efimera Studio Interiorismo.</p>
+            <img src={torre_uno_5} alt="EFIMERA" />
+          </div>
+          <div className='div_section_torre_uno'>
+            <img src={torre_uno_6} alt="EFIMERA" />
+            <p>Estamos inmensamente orgullosos del trabajo que hemos realizado y agradecidos por la confianza depositada en 
+              nosotros. Esperamos que este espacio brinde a sus visitantes una experiencia única.
+              En Efimera Studio Interiorismo, seguimos comprometidos con la creación de proyectos singulares y elegantes 
+              que superen las expectativas de nuestros clientes</p>
           </div>
 
         </div>
