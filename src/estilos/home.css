@@ -4,6 +4,11 @@
     src: url(../tipografias/CormorantGaramond-Regular.ttf) format("truetype");
 }
 
+@font-face {
+    font-family: "Nanum_Myeongjo";
+    src: url(../tipografias/NanumMyeongjo-Regular.ttf) format(truetype);
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -28,6 +33,8 @@ body{
     filter: brightness(50%);
 }
 
+/* ---------------------------- DESCRIPCION EFIMERA: ---------------------------- */
+
 .descript_efimera{
     background-color: #EBE6E0;
     display: flex;
@@ -37,88 +44,72 @@ body{
 
 .descript_efimera p{
     font-family: "Cormorant_Garamond_Regular";
-    font-size: 13px;
+    font-size: 30px;
     text-align: center;
     color: black;
-    letter-spacing: 5px;
-    line-height: 1.5;
-    width: 60%;
+    letter-spacing: 10px;
+    line-height: 2;
+    width: 55%;
     padding-block: 20px;
     text-transform: uppercase;
 }
 
-.services_container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    padding-block: 20px;
-}
-
-.service_box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.service_box p{
-    font-family: "Cormorant_Garamond_Regular";
-    font-size: 13px;
-    text-align: center;
-    color: black;
-    letter-spacing: 5px;
-    line-height: 1.5;
-    width: 60%;
-    padding-block: 20px;
-    text-transform: uppercase;
-}
-
-.service_box img{
-    width: 50px;
-    padding-inline: 190px;
-}
+/* ---------------------------- QUE OFRECE EFIMERA: ---------------------------- */
 
 .offers_container{
     background-color: #EBE6E0;
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     padding-block: 50px;
 }
 
-.offers_container img{
+.offer_div_1{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-inline: 200px;
+}
+
+.offer_div_1 img{
+    width: 500px;
+}
+
+.offer_div_1 p{
+    font-family: "Cormorant_Garamond_Regular";
+    font-size: 13px;
+    text-align: left;
+    color: black;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    line-height: 1.5;
     width: 40%;
 }
 
-.div_offers_text{
-    padding-left: 20px;
+.offer_div_2{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-inline: 200px;
 }
 
-.div_offers_text h2{
-    font-family: "Cormorant_Garamond_Regular";
-    font-size: 30px;
-    color: black;
-    letter-spacing: 5px;
-    line-height: 1.5;
-    text-transform: uppercase;
+.offer_div_2 img{
+    width: 500px;
 }
 
-.list_offers{
-    width: 90%;
-}
-
-.list_offers li{
+.offer_div_2 p{
     font-family: "Cormorant_Garamond_Regular";
     font-size: 13px;
+    text-align: right;
     color: black;
     letter-spacing: 5px;
-    line-height: 1.5;
-    padding-block: 30px;
     text-transform: uppercase;
+    line-height: 1.5;
+    width: 40%;
 }
 
-/* NUESTROS PROYECTOS: */
+
+/*  -------------------------- NUESTROS PROYECTOS: ------------------------------ */
 .projects_preview_home{
     background-color: #EBE6E0;
     display: flex;
@@ -144,47 +135,26 @@ body{
     flex-direction: row;
 }
 
-.project_block_home{
+.block_proyect_preview{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
-    position: relative;
-    padding-inline: 15px;
+    padding-inline: 30px;
 }
 
-.project_block_home img{
-    width: 500px;
+.block_proyect_preview img{
+    width: 450px;
 }
 
-.link_to_project_home{
-    position: absolute;
-    bottom: 0;
-    text-decoration: none;
-}
-
-.link_to_project_home button{
-    background-color: rgba(235, 230, 224, 0.8);
-    border-color: black;
-    border-radius: 20px;
+.block_proyect_preview p{
     font-family: "Cormorant_Garamond_Regular";
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
     color: black;
     letter-spacing: 5px;
     text-transform: uppercase;
-    padding-block: 10px;
-    width: 200px;
-    cursor: pointer;
 }
 
-.link_to_project_home button:hover{
-    background-color: rgba(220, 215, 209, 0.8);
-}
-
-.link_to_project_home button:active{
-    background-color: rgba(255, 255, 255, 0.8);
-}
 
 .see_more_projects{
     padding-block: 30px;
@@ -220,5 +190,11 @@ body{
 .link_ver_mas_proyectos button:active{
     background-color: white;
 }
+
+
+/* ----------------------- MODO RESPONSIVO: ------------------------ */
+
+
+
   
   

@@ -27,18 +27,17 @@
     width: 100%;
 }
 
-/* ESTILOS DE LOS BLOQUES DE PROYECTOS: */
+/* ------------------- ESTILOS DE LOS BLOQUES DE PROYECTOS: ------------------------------ */
 .div_proyectos_main_container{
     background-color: #EBE6E0;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
 .div_proyectos_main_container h1{
     font-family: "Cormorant_Garamond_Regular";
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     color: black;
     letter-spacing: 5px;
@@ -46,51 +45,41 @@
     padding-block: 50px;
 }
 
-.div_inline_proyectos{
+.flujo_proyectos_div{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: row;
-    padding-block: 15px;
 }
 
-.block_proyectos_div{
+.block_one, .block_two{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: column;
-    position: relative;
-    padding-inline: 15px;
 }
 
-.block_proyectos_div img{
-    width: 500px;
+.bloc_prjct_one{
+    padding-block: 20px;
+    padding-inline: 20px;
 }
 
-.link_to_proyecto{
-    position: absolute;
-    bottom: 0;
+.bloc_prjct_two{
+    padding-inline: 20px;
+    padding-block: 20px;
 }
 
-.link_to_proyecto button{
-    background-color: rgba(235, 230, 224, 0.8);
-    border-color: black;
-    border-radius: 20px;
+.bloc_prjct_one p, .bloc_prjct_two p{
     font-family: "Cormorant_Garamond_Regular";
-    font-size: 15px;
-    text-align: center;
+    font-size: 13px;
     color: black;
     letter-spacing: 5px;
     text-transform: uppercase;
-    padding-block: 10px;
-    width: 200px;
-    cursor: pointer;
 }
 
-.link_to_proyecto button:hover{
-    background-color: rgba(220, 215, 209, 0.8);
+.link_prjct_one img{
+    width: 500px;
 }
 
-.link_to_proyecto button:active{
-    background-color: rgba(255, 255, 255, 0.8);
+.link_prjct_two img{
+    width: 700px;
 }
+

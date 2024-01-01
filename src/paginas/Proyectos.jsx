@@ -11,7 +11,8 @@ import rlp from "../proyectos/CASA_RLP/rlp_1.jpg"
 import meriden from "../proyectos/MERIDEN/meriden_1.png"
 import legal_mid from "../proyectos/LEGAL_MID/legal_1.png"
 import mia_mamma from "../proyectos/MIA_MAMMA/mia_mamma_1.jpg"
-import torre_uno from "../proyectos/TORRE_UNO/torre_uno_portada.png"
+import torre_uno from "../proyectos/TORRE_UNO/torre_uno_1.jpg"
+
 
 const Proyectos = () => {
 
@@ -23,56 +24,35 @@ const Proyectos = () => {
                 <h1 className='title_proyectos'>Espacios y Creaciones</h1>
             </div>
             <div className='div_proyectos_main_container'>
+
                 <h1>Descrubre nuestros espacios y creaciones sensoriales:</h1>
 
-                <div className='div_inline_proyectos'>
-                    <div className='block_proyectos_div'>
-                        <img src={c50} alt="EFIMERA" />
-                        <a href="/" className='link_to_proyecto'>
-                            <button>Cantina 50</button>
-                        </a>
+               <div className='flujo_proyectos_div'>
+                    <div className='block_one'>
+
+                        <div className='bloc_prjct_one'>
+                            <a href="#" className='link_prjct_one'>
+                                <img src={enso} alt="EFIMERA" />
+                            </a>
+                            <p>Enso A54</p>
+                        </div>
+                        <div className='bloc_prjct_one'>
+                            <a href="#" className='link_prjct_one'>
+                                <img src={c50} alt="EFIMERA" />
+                            </a>
+                            <p>C50</p>
+                        </div>
+
                     </div>
-                    <div className='block_proyectos_div'>
-                        <img src={enso} alt="EFIMERA" />
-                        <a href="/" className='link_to_proyecto'>
-                            <button>Enso A54</button>
-                        </a>
+                    <div className='block_two'>
+                        <div className='bloc_prjct_two'>
+                            <a href="/torre_uno" className='link_prjct_two'>
+                                <img src={torre_uno} alt="EFIMERA" />
+                            </a>
+                            <p>Torre Uno</p>
+                        </div>
                     </div>
-                    <div className='block_proyectos_div'>
-                        <img src={rlp} alt="EFIMERA" />
-                        <a href="/" className='link_to_proyecto'>
-                            <button>Casa RLP</button>
-                        </a>
-                    </div>
-                </div>
-                <div className='div_inline_proyectos'>
-                    <div className='block_proyectos_div'>
-                        <img src={meriden} alt="EFIMERA" />
-                        <a href="/" className='link_to_proyecto'>
-                            <button>Meriden</button>
-                        </a>
-                    </div>
-                    <div className='block_proyectos_div'>
-                        <img src={legal_mid} alt="EFIMERA" />
-                        <a href="/" className='link_to_proyecto'>
-                            <button>Legal MID</button>
-                        </a>
-                    </div>
-                    <div className='block_proyectos_div'>
-                        <img src={mia_mamma} alt="EFIMERA" />
-                        <a href="/" className='link_to_proyecto'>
-                            <button>Mia Mamma</button>
-                        </a>
-                    </div>
-                </div>
-                <div className='div_inline_proyectos'>
-                    <div className='block_proyectos_div'>
-                        <img src={torre_uno} alt="EFIMERA" />
-                        <a href="/torre_uno" className='link_to_proyecto'>
-                            <button>Torre Uno</button>
-                        </a>
-                    </div>
-                </div>
+               </div>
                 
             </div>
             <Footer/>

@@ -12,7 +12,7 @@ import arquitectura from "../imagenes/arquitectura.png"
 import mesa from "../imagenes/img_mesa.jpeg"
 
 //PARA VISUALIZACION DE PROYECTOS:
-import project_1 from "../proyectos/C50/c50_1.jpg"
+import project_1 from "../proyectos/TORRE_UNO/torre_uno_portada.png"
 import project_2 from "../proyectos/ENSO_A54/enzo_1.jpg"
 import project_3 from "../proyectos/CASA_RLP/rlp_1.jpg"
 
@@ -30,35 +30,32 @@ const Home = () => {
         <p>Somos una firma especializada en crear experiencias sensoriales y captar 
             la belleza de aquello que no dura para siempre pero que deja una huella 
             constante en nuestras vidas.</p>
-        <p>Nuestra firma se define con elementos como:</p>
-        <div className='services_container'>
-          <div className='service_box'>
-            <img src={vela} alt="EFIMERA" />
-            <p>Elementos sensoriales</p>
-          </div>
-          <div className='service_box'>
-            <img src={interiorismo} alt="EFIMERA" />
-            <p>Interiorismo exquisito</p>
-          </div>
-          <div className='service_box'>
-            <img src={arquitectura} alt="EFIMERA" />
-            <p>Arquitectura vanguardista</p>
-          </div>
-        </div>
       </div>
 
       <div className='offers_container'>
-        <img src={mesa} alt="EFIMERA" />
-        <div className='div_offers_text'>
-          <h2>Que ofrecemos:</h2>
-          <ul className='list_offers'>
-            <li>Asesoría de diseño durante el desarrollo de tu proyecto</li>
-            <li>Transformación de tus ideas a un proyecto conceptual</li>
-            <li>Diseño de anteproyecto previo al desarrollo de la obra</li>
-            <li>Diseño de proyecto ejecutivo</li>
-            <li>Cotización de la obra</li>
-            <li>Ejecución y supervisión de la obra</li>
-          </ul>
+        <div className='offer_div_1'>
+          <img src={mesa} alt="EFIMERA" />
+          <p>Te ofrecemos asesoría de diseño durante el desarrollo de tu proyecto</p>
+        </div>
+        <div className='offer_div_2'>
+          <img src={mesa} alt="EFIMERA" />
+          <p>Transformamos tu ideas a un proyecto conceptual</p>
+        </div>
+        <div className='offer_div_1'>
+          <img src={mesa} alt="EFIMERA" />
+          <p>Realizamos tu anteproyecto previo al desarrollo de la obra</p>
+        </div>
+        <div className='offer_div_2'>
+          <img src={mesa} alt="EFIMERA" />
+          <p>Armamos y creamos tu diseño de proyecto ejecutivo</p>
+        </div>
+        <div className='offer_div_1'>
+          <img src={mesa} alt="EFIMERA" />
+          <p>Calculamos y realizamos la cotización de tu obra</p>
+        </div>
+        <div className='offer_div_2'>
+          <img src={mesa} alt="EFIMERA" />
+          <p>Ejecutamos y damos supervisión a tu obra</p>
         </div>
       </div>
 
@@ -67,23 +64,23 @@ const Home = () => {
 
         <div className='project_home_main_container'>
           
-          <div className='project_block_home'>
-            <img src={project_1} alt="EFIMERA" />
-            <a href="/" className='link_to_project_home'>
-              <button>Cantina 50</button>
+          <div className='block_proyect_preview'>
+            <a href="/torre_uno" className='imgLinkToProjectHome'>
+              <img src={project_1} alt="EFIMERA" />
             </a>
+            <p>Torre Uno</p>
           </div>
-          <div className='project_block_home'>
-            <img src={project_2} alt="EFIMERA" />
-            <a href="/" className='link_to_project_home'>
-              <button>Enso A54</button>
+          <div className='block_proyect_preview'>
+            <a href="/torre_uno" className='imgLinkToProjectHome'>
+              <img src={project_2} alt="EFIMERA" />
             </a>
+            <p>Enso A54</p>
           </div>
-          <div className='project_block_home'>
-            <img src={project_3} alt="EFIMERA" />
-            <a href="/" className='link_to_project_home'>
-              <button>Casa RLP</button>
+          <div className='block_proyect_preview'>
+            <a href="/torre_uno" className='imgLinkToProjectHome'>
+              <img src={project_3} alt="EFIMERA" />
             </a>
+            <p>Casa RLP</p>
           </div>
 
         </div>
